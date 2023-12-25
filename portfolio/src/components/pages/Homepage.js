@@ -3,12 +3,15 @@ import '../../assets/css/Homepage.css';
 import Footer from '../elements/menu/footer.js';
 import Header from '../elements/menu/header.js';
 import logoTest1 from '../../assets/image/logoTest1.jpg';
+import WelcomePage from './WelcomePage.js';
 
 function Homepage() {
     return (
         <div className="home">
+
+            <WelcomePage />
             <Header />
-            
+
             <main className="home-main">
                 <div className='home-main-text'>
                     <h2>This is my portfolio</h2>
