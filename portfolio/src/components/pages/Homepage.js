@@ -1,18 +1,14 @@
 import React from 'react';
 import '../../assets/css/Homepage.css';
 import Footer from '../elements/menu/footer.js';
+import Header from '../elements/menu/header.js';
 import logoTest1 from '../../assets/image/logoTest1.jpg';
 
 function Homepage() {
     return (
         <div className="home">
-
-            <header className="home-header">
-                <h1>
-                    Welcome
-                </h1>
-            </header>
-
+            <Header />
+            
             <main className="home-main">
                 <div className='home-main-text'>
                     <h2>This is my portfolio</h2>
