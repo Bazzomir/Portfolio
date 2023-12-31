@@ -1,0 +1,28 @@
+.collaborate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.colaborate-text-1 {
+    color:grey;
+    font-size: 10vw;
+}
+
+.colaborate-text-2 {
+    color:whitesmoke;
+    font-size: 10vw;
+}
+
+.colaborate-text-2:hover {
+    color:whitesmoke;
+    font-size: 12vw;
+}
+
+.colaborate-text-3 {
+    color:grey;
+    font-size: 10vw;
+}

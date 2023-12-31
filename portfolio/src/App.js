@@ -4,7 +4,8 @@ import WelcomePage from './components/pages/WelcomePage.js';
 function App() {
   return (
     <>
-      <WelcomePage /><Homepage />
+      <WelcomePage />
+      <Homepage />
     </>
   );
 }

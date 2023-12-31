@@ -3,6 +3,7 @@ import '../../assets/css/Homepage.css';
 import Footer from '../elements/menu/footer.js';
 import Header from '../elements/menu/header.js';
 import logoTest1 from '../../assets/image/logoTest1.jpg';
+import LetsCollaborate from './CollaboratePage.js';
 
 function Homepage() {
     return (
@@ -25,6 +26,8 @@ function Homepage() {
                     </div>
                 </div>
             </main>
+
+            <LetsCollaborate />
 
             <Footer />
         </div>
